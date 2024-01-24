@@ -121,6 +121,7 @@ function initialstopConsultation(){
   recognition.stop(); document.getElementById('listeninggif').style.display = 'none';   document.getElementById('replayButton').style.display = 'none';   document.getElementById('stop-consultation-btn').style.display = 'none';  document.getElementById('home').style.display = 'none'; document.getElementById('executeButton').style.display = 'none';
   document.getElementById('pause-countdown').style.display = 'none';
   document.getElementById('countdown-value').style.display = 'none';
+  silentmsg = true;
 
 
  
@@ -403,7 +404,7 @@ slider.addEventListener("input", function() {
 //});
 
 
-
+let silentmsg = false;
 
 
 pauseBtn.addEventListener("click", function() {
@@ -415,6 +416,7 @@ pauseBtn.addEventListener("click", function() {
 
     myVideo.pause(); recognition.stop(); document.getElementById('listeninggif').style.display = 'none';   document.getElementById('replayButton').style.display = 'none';   document.getElementById('stop-consultation-btn').style.display = 'none';   document.getElementById('home').style.display = 'none'; document.getElementById('executeButton').style.display = 'none'; initialpromptforpresssubmit.style.display = 'none';
     pauseBtn.style.display = "unset"; //actionTriggered = true;
+    silentmsg = true;
 
   } else {
     timer = setInterval(updateTimeLeft, 1000);
@@ -424,6 +426,7 @@ pauseBtn.addEventListener("click", function() {
 
     pauseBtn.style.top = ''; pauseBtn.style.left = ''; pauseBtn.style.transform = ''; // Reset the position property to its default value
     pauseBtn.style.display = "unset"; //actionTriggered = true;
+    silentmsg = false;
   }
 });
 
@@ -2477,21 +2480,26 @@ recognition.onstart = function() {
           }
 }
 
-recognition.onend= function() {
+
+
+
+
+
+recognition.onend= function () {
   micisworking.style.display = 'none';
   //micisworking.style.backgroundColor = 'red';
 
-        if (actionTriggered == false){
+        if (actionTriggered == false && silentmsg == false){
         pauseBtn.click(); 
+        silentmsg = false;
         document.getElementById('silencemessage').style.display = 'unset';
-        pauseBtn.style.display = "none"; 
+        pauseBtn.style.display = "none";
       }
 
 
 
 }; 
-
-
+//&& !pauseBtn.click
 
 
 
