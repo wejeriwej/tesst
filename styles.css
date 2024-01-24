@@ -1,0 +1,2170 @@
+#topheader {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: lightcyan;
+  height: 90px;
+}
+
+#logo {
+  margin-top: 5px;
+  margin-left: 0px;
+ 
+  height: 78px;
+  width: 320px;
+}
+
+.logoplacement{
+  text-align: center;
+}
+
+.nav-area{
+  
+  padding: 5px;
+  
+  /*display: inline-block; */
+}
+
+/*#positionofeachheaderbtn {
+  margin-left: 20%
+}*/
+
+
+
+
+#navigationtings li{
+  padding-right: 100px;
+  display : in-line;
+  
+}
+
+@media screen and (max-width: 650px) {
+  #navigationtings li{
+    padding-right: 0px;
+  }}
+
+  @media screen and (max-width: 850px) {
+    #navigationtings li{
+      padding-right: 10px;      
+    }}
+
+    @media screen and (max-width: 950px) {
+      #navigationtings li{
+        padding-right: 20px;      
+      }}
+
+
+
+li {
+  list-style-position: outside;
+  
+}
+
+
+
+#casebytopiclayout li{
+  padding: 0px;
+  
+}
+
+
+
+
+#headerplacement{
+  width: 100%;
+
+}
+
+
+/*
+#headerplacement ul{
+  text-align: center;
+
+}
+
+#headerplacement li{
+  display: inline-block;
+
+}*/
+
+
+
+/*
+.homebtn {
+  margin-right : 20%;
+  text-align: centre;
+}
+
+
+
+
+.secondheaderbtn{
+  margin-right: 20%;
+}
+
+.thirdheaderbtn{
+  margin-right: 20%;
+
+}
+*/
+
+/*
+.titlepagefront {
+  margin-left: 3.5%;
+  font-size: 300%;
+  font-size-adjust: 0.58;
+
+
+
+  font-weight: 100;
+  font-display: white;
+  display: inline-block;
+  margin-right: 0px;
+  height: 10px;
+  }
+
+.indexpage {
+  margin-left: 10%;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  height: 10px;
+  
+  
+  }
+
+.case1header {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  height: 10px;
+}
+
+.case2header {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 0px;
+  height: 10px;
+}
+
+
+.title{
+  margin-left: 3.5%;
+  margin-top: 10px;
+  margin-right: 3.5%;
+  margin-bottom: 10px;
+}
+
+*/
+
+#page-description {
+  margin-left: 3.5%;
+  margin-top: 10px;
+  margin-right: 3.5%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+
+
+#review-section ul:nth-child(1){
+  list-style: '● ';
+  
+  margin-left: -25px;
+
+}
+
+
+.j1 {
+  /*margin-left: -25px;*/
+  list-style: none;
+  list-style: '- ';
+}
+
+.explanationparagraph{
+  margin-left: 3%;
+  margin-right: 1px;
+  font-size: 12px;
+  font-style: italic;
+  list-style: '- ';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logoduringconsultation{
+  top: 2.5%;
+  right: 75%;
+  position: absolute;
+  z-index: 1;
+  height: 5%;
+  width: 8%;
+  display: none;
+  opacity: 0.3;
+}
+
+
+
+
+
+
+#countdown-value {
+  font-size: 40px;
+  margin-bottom: 0px;
+  display: none;
+  z-index: 1;
+  color:green;
+  top: 1%;
+  right: 19%;
+  position: absolute;
+}
+
+#pause-countdown {
+  margin: 0 5px;
+  padding: 1px 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 35px;
+  display: none;
+  z-index: 1;
+
+  top: 7.5%;
+  right: 19.5%;
+  position: absolute;
+
+  background-color:transparent;
+  color:black;
+  opacity: 0.5;
+  /*border: solid black 1px; */
+
+  background-image: url("pause_button_black_and_white-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 10px 20px; /* add some padding to the button to make it more clickable */
+  /* add any other styling as needed */
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+#slider {
+  width: 200px;
+  margin-right: 10px;
+}
+
+#slider-value {
+  font-size: 20px;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#countdown-updated{
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+#pause-countdown:hover {
+  background-color: #eee;
+  padding: 20px 20px;
+}
+
+
+
+
+
+
+
+#executeButton{
+  background-color: #ee9bef;
+  position: absolute;
+
+  z-index: 20000;
+  left: 75%;
+  top: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#start-consultation-btn,#stop-consultation-btn,#end-consultation-btn,#move-onto-questions-btn
+, #move-onto-questions-btn_examinations,#end-consultation-btn1, #move-onto-questions-btn_summary, #move-onto-questions-btn_differentials, 
+#move-onto-questions-btn_investigations, #move-onto-questions-btn_riskfactors, #move-onto-questions-btn_treatments{
+  height: 80px;
+  width: 40%;
+  padding: 5px;
+  border: solid black 3px; 
+
+  background-color: rgb(249, 191, 191);
+  color:black;
+  font-size: 2.2em;
+  z-index: 1;
+
+  
+}
+
+#start-consultation-btn:hover,#stop-consultation-btn,#end-consultation-btn,#move-onto-questions-btn
+, #move-onto-questions-btn_examinations,#end-consultation-btn1, #move-onto-questions-btn_summary, #move-onto-questions-btn_differentials, 
+#move-onto-questions-btn_investigations, #move-onto-questions-btn_riskfactors, #move-onto-questions-btn_treatments{
+  background-color: #eee;
+}
+
+#stop-consultation-btn:hover,#end-consultation-btn:hover,#move-onto-questions-btn:hover
+, #move-onto-questions-btn_examinations:hover,#end-consultation-btn1:hover, #move-onto-questions-btn_summary:hover, #move-onto-questions-btn_differentials:hover, 
+#move-onto-questions-btn_investigations:hover, #move-onto-questions-btn_riskfactors:hover, #move-onto-questions-btn_treatments:hover{
+  background-color: #de9595;
+}
+
+
+#stop-consultation-btn{
+  /*top: 88%;
+  left: 0.3%;*/
+  left: 50%;
+  top: 6%;
+  position: absolute;
+  width: 15.5%;
+  height: 60px;
+  border: solid black 0px; 
+  transform: translate(-50%, -50%);
+  opacity: 0.8;
+}
+
+#move-onto-questions-btn, #move-onto-questions-btn_examinations, #move-onto-questions-btn_summary, #move-onto-questions-btn_differentials, 
+#move-onto-questions-btn_investigations, #move-onto-questions-btn_riskfactors, #move-onto-questions-btn_treatments{
+  top: 88%;
+  left: 2.5%;
+  position: absolute;
+
+}
+
+#end-consultation-btn, #end-consultation-btn1{
+  top: 88%;
+  right: 2.5%;
+  position: absolute;
+  font-size: 1.7em;
+
+}
+
+@media screen and (max-width: 800px) {
+  #start-consultation-btn,#stop-consultation-btn {
+    
+    width: 100%;
+    
+  }
+}
+
+#recording-instructions,#start-record-btn,#save-note-btn,#note-textarea{
+  display:none;
+}
+
+#review-section, #examinations, #summary, #differentials, #investigations, #end-consultation-btn, 
+#move-onto-questions-btn,#stop-consultation-btn,#listeninggif, #loadingcircle, #riskfactors, #treatments, #replayButton, #home, #executeButton{
+  display:none;
+}
+
+#allthiscango{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+#silencemessage{
+margin:auto;
+position: absolute;
+  left: 0;
+  right: 0;
+
+display : none; z-index: 1; position: absolute; color: rgb(0, 0, 0);
+margin: auto;
+padding: 30px;
+padding-bottom: 10px;
+border: 3px solid #73AD21;
+width: 80%;
+background-color: #eee;
+}
+
+#comebacktonormal {
+  display: inline-flex;
+  font-size: large;
+  background-color: #73AD21;
+  margin: 25px auto;
+  margin-bottom: 0%; 
+  text-align: center; 
+}
+
+
+@media screen and (max-width: 800px) {
+  #silencemessage{
+    width: 95%;
+    padding: 15px;
+    padding-bottom: 5px;
+    font-size: small;
+  }
+#silencemessage_title{
+  font-size: small;
+}
+#comebacktonormal{
+  margin: 20px auto;
+  margin-bottom: 0%; 
+}
+}
+  
+
+
+
+#silencemessage_format{
+  display: inline-block;
+}
+#silencemessage_format2nd{
+  margin-left: 5px;
+  display: inline-block;
+  list-style-position: outside;
+
+}
+
+
+
+
+/*For the main table for EBI/WWW
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  border: 3px solid #73AD21;
+}
+#customers #jack td:nth-child(1), #customers #jack td:nth-child(2) {
+border: none;
+};
+
+#customers tr th{
+width: 10px;
+}
+
+*/
+
+#customers tr:hover {background-color: #ddd;}
+
+
+#customers tr th {
+  text-align: center;
+  font-size: 20px;/*font-size: larger;*/
+  background-color: #f0f0f0; 
+}
+
+#customers tr th:nth-child(2), #customers tr th:nth-child(3) {
+  font-size: 40px;
+  border: 2px solid;
+  border-color:rgb(0, 0, 0) ;/*rgb(190, 188, 188)*/
+  
+}
+
+#customers tr td{
+  font-size: 17.5px;
+}
+#customers tr th:nth-child(1){
+  text-align:left;
+  border: 2px solid;
+}
+
+
+
+
+
+#customers tr td:nth-child(1){
+  background-color: transparent;
+    width: 0;
+    height: 0;
+    border-left: 2px solid; border-color: rgb(233, 246, 253);
+    background-color: rgb(233, 246, 253);
+    
+    padding: 0;
+    margin: 0;    
+    
+}
+
+#customers tr td:nth-child(2){
+  background-color: rgb(240, 225, 225);
+  border: 1px solid; border-right: 2px solid; border-left: 2px solid;  border-color:rgb(190, 188, 188);
+}
+
+#customers tr td:nth-child(3){
+  background-color: rgb(225, 240, 227);
+  border: 1px solid;  border-color:rgb(190, 188, 188) ;
+  visibility: hidden; border: none; border-right: 2px solid; border-color:rgb(190, 188, 188);
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+#customers tr td:nth-child(1), #customers tr th:nth-child(1){
+  display: none;
+}
+}
+
+#customers tr td {
+content: "";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myVideo, #mutedVideo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display:none;
+
+  
+}
+
+#mutedVideo {
+  display: none;
+}
+
+
+
+
+
+
+
+#initialpromptforpresssubmit{
+  
+  margin-top: 25%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+
+
+/*.video-container{
+  position: relative;
+}*/
+
+
+
+#fakeVideo {
+  float: right; 
+  margin-left: 10px; 
+  margin-right: 10px; 
+  margin-bottom: 5px; 
+  /*border: solid black 1px; 
+  padding: 1px; */
+  width:55%;
+  border-radius: 15px;
+
+
+}
+
+
+#replayButton {
+     
+      
+  left: 62%;
+  top: 6%;
+  position: absolute;
+  width: 6.0%;
+  height: 60px;
+  transform: translate(-50%, -50%);
+  opacity: 0.5;
+  background-color:#eee;
+  color: black;
+  font-weight: bolder;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  white-space: normal;
+  line-height: 1.0;
+
+}
+
+#listeninggif{
+  /*
+  position: absolute;
+  top: 0;
+  left: 0;  
+  */
+  
+  /*top: 450px;
+  left: 700px;*/
+  top: 55%;
+  left: 52.5%;
+  transform: translate(-50%, -50%);  
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  opacity: 1.9;
+  z-index: 1;
+
+  
+}
+
+#loadingcircle{
+  position: absolute;
+  top: 49.5%;
+  left: 49.5%;
+  opacity: 0.6;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+}
+
+#home{
+  position: absolute;
+  top: 2.75%;
+  left: 37.25%;
+  opacity: 0.6;
+  z-index: 1;
+  width: 55px;
+  height: 55px;
+
+  background-color:transparent;
+  
+
+  background-image: url("home-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  #myVideo {
+    width: 100%;
+  }}
+
+.mainimage {
+  float: right; 
+  margin-left: 10px; 
+  margin-bottom: 5px; 
+  border: solid black 1px; 
+  padding: 1px; 
+  width:35%; 
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .mainimage {
+    width: 45%;
+  }}
+*/
+
+
+
+
+
+
+
+
+  #note-textarea,#summary-textarea,#differentials-textarea,#examinations-textarea,#investigations-textarea {
+    width: 40%;
+  }
+
+  @media screen and (max-width: 600px) {
+    #note-textarea,#summary-textarea,#differentials-textarea,#examinations-textarea,#investigations-textarea {
+      width: 100%;
+
+    }}
+
+
+
+
+
+#start-record-btn,#start-record-btn-for-differentials,#start-record-btn-for-summary,#start-record-btn-for-blood,#start-record-btn-for-examinations,
+#start-record-btn-for-investigations,#start-record-btn-for-riskfactors,#start-record-btn-for-treatments{
+  height: 165px;
+  width: 165px;
+}
+
+#start-record-btn:hover,#start-record-btn-for-differentials:hover,#start-record-btn-for-summary:hover,#start-record-btn-for-blood:hover, #start-record-btn-for-examinations:hover,
+#start-record-btn-for-investigations:hover,#start-record-btn-for-riskfactors:hover,#start-record-btn-for-treatments:hover {
+  height: 165px;
+  width: 165px;
+  padding: 3px;
+
+  
+  box-shadow: 0px 0px 9px 4px #747DE8;
+  animation: glow 1.5s linear infinite alternate;
+}
+
+@media screen and (max-width: 600px) {
+
+  #start-record-btn,#start-record-btn-for-differentials,#start-record-btn-for-summary,#start-record-btn-for-blood, #start-record-btn-for-examinations
+  #start-record-btn-for-investigations,#start-record-btn-for-riskfactors,#start-record-btn-for-treatments {
+    height: 65px;
+    width: 65px;
+
+  }
+  
+  #start-record-btn:hover,#start-record-btn-for-differentials:hover,#start-record-btn-for-summary:hover,#start-record-btn-for-blood:hover,#start-record-btn-for-examinations:hover,
+  #start-record-btn-for-investigations:hover,#start-record-btn-for-riskfactors:hover,#start-record-btn-for-treatments:hover {
+    height: 65px;
+    width: 65px;
+    padding: 3px;
+
+    
+    box-shadow: 0px 0px 9px 4px #747DE8;
+    animation: glow 1.5s linear infinite alternate;
+  }
+
+}
+
+
+#save-note-btn {
+  height: 40px;
+  width: 160px;
+  border: solid black 1px; 
+  padding: 5px;
+  margin-left: 10px;
+  margin-top: -50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+  font-size: 1.1em;
+
+}
+
+#save-note-btn-for-summary,#save-note-btn-for-blood,#save-note-btn-for-investigations,
+#save-note-btn-for-riskfactors,#save-note-btn-for-treatments,#save-note-btn-for-differentials,#save-note-btn-for-examinations {
+  height: 70px;
+  width: 300px;
+  border: solid black 1px;
+  font-size: 35px;
+
+
+  background-color: rgb(249, 191, 191);
+  color:black;
+  position: absolute;
+  z-index: 1;
+
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  /*margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;*/
+}
+
+#save-note-btn-for-summary:hover,#save-note-btn-for-blood:hover,#save-note-btn-for-investigations:hover,
+#save-note-btn-for-riskfactors:hover,#save-note-btn-for-treatments:hover,#save-note-btn-for-differentials:hover,#save-note-btn-for-examinations:hover {
+box-shadow: 0px 0px 9px 4px #747DE8;
+}
+
+
+
+
+
+
+
+
+#save-note-btn-for-summary,#save-note-btn-for-blood,#save-note-btn-for-investigations,
+#save-note-btn-for-riskfactors,#save-note-btn-for-treatments,#save-note-btn-for-differentials,#save-note-btn-for-examinations{
+  display: none;
+}
+
+/*
+#start-record-btn-for-consultation {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+}
+
+#start-record-btn-for-consultation:hover {
+  height: 40px;
+  width: 40px;
+  margin-top: 5px;
+  padding: 1.5px;
+}
+
+#save-note-btn-for-consultation {
+  height: 35px;
+  width: 150px;
+  border: solid black 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(249, 191, 191);
+  color:black;
+}
+
+*/
+
+
+
+
+
+
+#save-imaging{
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+
+#save-examinations {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+.videxam {
+  width: 200px;
+  padding: 10px;
+  border: 3px solid black;
+  margin: 0;
+  background-color: rgb(254, 226, 216);
+  text-align: center;
+  font-size:20px;
+  float:left;
+  border-radius: 10px;
+
+}
+@media screen and (max-width: 600px) {
+  .videxam {
+    display:inline-block;
+    margin-bottom: 10px;
+  }}
+
+#examfindings-btn {
+  background-color: lightcyan;
+  color:black;
+  width: 265px;
+  height: 115px;
+  font-size: 25px;
+  border: solid black 3px;
+  margin-left: 10px;
+  border-radius: 10px; 
+}
+
+@media screen and (max-width: 600px) {
+  #examfindings-btn {
+    width: 200px;
+    height: 115px;
+    font-size: 18px;
+  }}
+
+
+
+
+
+
+
+
+
+#save-d1 {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+#save-d2 {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+#save-d3 {
+  background-color: rgb(249, 191, 191);
+  color:black; 
+  border: solid black 1px;
+}
+
+
+
+.app {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  @media screen and (max-width: 1000px) {
+    .app {margin-right: 1.5%; margin-left: 1.5%;}
+  }
+  @media screen and (max-width: 600px) {
+    .app {margin-right: 0.5%; margin-left: 0.5%;}
+  }
+
+
+
+
+
+#casename {
+  margin-left: 3.5%;
+  display: block;
+}
+
+
+.note {
+  width:100%;
+  
+}
+.header{
+  margin-left: 20px; 
+}
+
+.listen-note {
+  margin-left: 100px;
+}
+
+.delete-note {
+  margin-left: 50px;
+
+}
+
+.date {
+  margin-left: 750px;
+}
+
+.forgottoaskabout{
+  /*float: right;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.borderline{
+  border: 1px solid black; 
+  width: 100%; 
+  height: 1px; 
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+.important-not-to-miss .WWWEBItitles,
+.important-not-to-miss .evenbetterifgeneral,
+.important-not-to-miss .whatwentwellgeneral {
+  height: 1319px;
+}
+
+.stand-out-questions .WWWEBItitles,
+.stand-out-questions .evenbetterifgeneral,
+.stand-out-questions .whatwentwellgeneral {
+  height: 565px;
+}
+
+
+.WWWEBItitles{
+  
+  line-height: 1.5;border-style: solid; border-right-style: hidden;
+  width: 225px;  float: left;
+  font-size: 48px; height: 1800px;
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ */ font-family: "Brush Script MT", cursive;
+
+
+ /* color: rgb(25, 3, 134);*/
+
+  border-color: black;
+
+  padding-top: 0px;
+  
+
+  position: relative;
+
+  background-color: rgba(211, 211, 211, 0.8);
+
+  /*display: flex;
+  align-items: center*/
+}
+
+
+
+.WWWEBItitlesfont{
+  /*background-color: #f9a3c7;
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;*/
+  color: white;
+  text-shadow: 1.5px 1.5px 0 #f06292, 1px 1px 0 #f8bbd0;
+
+}
+
+.titlesformatting{
+  background-color: rgba(102, 66, 66, 0.8);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.titlesbottommargin{
+  padding-bottom: 15px;
+
+}
+
+
+
+/*tick and cross*/
+.titleforEBI{
+  line-height: 1.5;
+  font-size: 58px;
+  margin-left: 40%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  
+}
+
+.titleforWWW{
+  line-height: 1.5;
+  font-size: 58px;
+  margin-left: 40%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+}
+
+.box-enclosingcrossandtick{
+  border-bottom-style: solid;
+}
+
+.colourofcross{
+  background: rgb(251, 139, 139);
+}
+
+.colouroftick{
+  background: rgb(124, 244, 124);
+}
+
+
+/*actual EBI and WWW*/
+.evenbetterifgeneral {
+  line-height: 1.3;   font-size: 20px;border-style: solid; border-right-style: hidden;
+  font-weight: 400;
+
+  margin-left: 0%; width: 39%;  float: left; 
+  background: rgb(249, 221, 221);
+}
+
+.whatwentwellgeneral {
+  line-height: 1.3; font-size: 20px;border-style: solid;
+
+  margin-left: 0%; width: 39%; /*height: 1870px;*/ float: left; 
+  background: rgb(209, 228, 236); margin-bottom: 0px; /*background: rgb(197, 244, 197);*/
+  margin-bottom: 50px;
+
+}
+
+.important-colour-box{
+  background-color: rgb(209, 228, 236);
+  color: rgb(241, 58, 58);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EBI*/
+#colorbox-painlocation-before,
+#colorbox-onset-before,
+#colorbox-character-before,
+#colorbox-radiate-before,
+#colorbox-associatedsymptoms-before,
+#colorbox-timecourse-before,
+#colorbox-makeitworse-before,
+#colorbox-makeitbetter-before,
+#colorbox-ratepain-before,
+#colorbox-happenbefore-before,
+#colorbox-ideas-before,
+#colorbox-concerns-before,
+#colorbox-expectations-before,
+#colorbox-familyhistory-before,
+#colorbox-pmh-before,
+#colorbox-surgical-before,
+#colorbox-meds-before,
+#colorbox-allergies-before,
+#colorbox-job-before,
+#colorbox-walkdistance-before,
+#colorbox-homesituation-before,
+#colorbox-smoking-before,
+#colorbox-alcohol-before,
+
+#colorbox-dyspnoea-before,
+#colorbox-orthopnoea-before,
+#colorbox-pnd-before,
+#colorbox-cough-before,
+#colorbox-FHheartconditions-before,
+#colorbox-diabetes-before,
+#colorbox-hypertension-before,
+#colorbox-heartattacks-before,
+#colorbox-dizziness-before,
+#colorbox-physicalactivity-before,
+#colorbox-palpitations-before,
+
+#colorbox-sleepapnoea-before,
+#colorbox-pad-before,
+#colorbox-fever-before,
+#colorbox-weight-before,
+#colorbox-oedema-before {
+  content: "";  display: block;  height: 10px;  background-color: rgb(249, 221, 221);
+}
+
+
+
+
+
+
+
+#colorbox-painlocation,
+#colorbox-onset,
+#colorbox-character,
+#colorbox-radiate,
+#colorbox-associatedsymptoms,
+#colorbox-timecourse,
+#colorbox-makeitworse,
+#colorbox-makeitbetter,
+#colorbox-ratepain,
+#colorbox-happenbefore,
+#colorbox-ideas,
+#colorbox-concerns,
+#colorbox-expectations,
+#colorbox-familyhistory,
+#colorbox-pmh,
+#colorbox-surgical,
+#colorbox-meds,
+#colorbox-allergies,
+#colorbox-job,
+#colorbox-walkdistance,
+#colorbox-homesituation,
+#colorbox-smoking,
+#colorbox-alcohol,
+
+#colorbox-dyspnoea,
+#colorbox-orthopnoea,
+#colorbox-pnd,
+#colorbox-cough,
+#colorbox-FHheartconditions,
+#colorbox-diabetes,
+#colorbox-hypertension,
+#colorbox-heartattacks,
+#colorbox-dizziness,
+#colorbox-physicalactivity,
+#colorbox-palpitations,
+
+#colorbox-sleepapnoea,
+#colorbox-pad,
+#colorbox-fever,
+#colorbox-weight,
+#colorbox-oedema {
+  margin-top: -10px;
+}
+
+
+/*WWW*/
+#correct-colorbox-painlocation-before,
+#correct-colorbox-onset-before,
+#correct-colorbox-character-before,
+#correct-colorbox-radiate-before,
+#correct-colorbox-associatedsymptoms-before,
+#correct-colorbox-timecourse-before,
+#correct-colorbox-makeitworse-before,
+#correct-colorbox-makeitbetter-before,
+#correct-colorbox-ratepain-before,
+#correct-colorbox-happenbefore-before,
+#correct-colorbox-ideas-before,
+#correct-colorbox-concerns-before,
+#correct-colorbox-expectations-before,
+#correct-colorbox-familyhistory-before,
+#correct-colorbox-pmh-before,
+#correct-colorbox-surgical-before,
+#correct-colorbox-meds-before,
+#correct-colorbox-allergies-before,
+#correct-colorbox-job-before,
+#correct-colorbox-walkdistance-before,
+#correct-colorbox-homesituation-before,
+#correct-colorbox-smoking-before,
+#correct-colorbox-alcohol-before,
+
+#correct-colorbox-dyspnoea-before,
+#correct-colorbox-orthopnoea-before,
+#correct-colorbox-pnd-before,
+#correct-colorbox-cough-before,
+#correct-colorbox-FHheartconditions-before,
+#correct-colorbox-diabetes-before,
+#correct-colorbox-hypertension-before,
+#correct-colorbox-heartattacks-before,
+#correct-colorbox-dizziness-before,
+#correct-colorbox-physicalactivity-before,
+#correct-colorbox-palpitations-before,
+
+#correct-colorbox-sleepapnoea-before,
+#correct-colorbox-pad-before,
+#correct-colorbox-fever-before,
+#correct-colorbox-weight-before,
+#correct-colorbox-oedema-before
+{
+  content: "";  display: block;  height: 10px;  background-color: rgb(209, 228, 236);
+}
+
+#correct-colorbox-painlocation,
+#correct-colorbox-onset,
+#correct-colorbox-character,
+#correct-colorbox-radiate,
+#correct-colorbox-associatedsymptoms,
+#correct-colorbox-timecourse,
+#correct-colorbox-makeitworse,
+#correct-colorbox-makeitbetter,
+#correct-colorbox-ratepain,
+#correct-colorbox-happenbefore,
+#correct-colorbox-ideas,
+#correct-colorbox-concerns,
+#correct-colorbox-expectations,
+#correct-colorbox-familyhistory,
+#correct-colorbox-pmh,
+#correct-colorbox-surgical,
+#correct-colorbox-meds,
+#correct-colorbox-allergies,
+#correct-colorbox-job,
+#correct-colorbox-walkdistance,
+#correct-colorbox-homesituation,
+#correct-colorbox-smoking,
+#correct-colorbox-alcohol,
+
+#correct-colorbox-dyspnoea,
+#correct-colorbox-orthopnoea,
+#correct-colorbox-pnd,
+#correct-colorbox-cough,
+#correct-colorbox-FHheartconditions,
+#correct-colorbox-diabetes,
+#correct-colorbox-hypertension,
+#correct-colorbox-heartattacks,
+#correct-colorbox-dizziness,
+#correct-colorbox-physicalactivity,
+#correct-colorbox-palpitations,
+
+#correct-colorbox-sleepapnoea,
+#correct-colorbox-pad,
+#correct-colorbox-fever,
+#correct-colorbox-weight,
+#correct-colorbox-oedema {
+  color: rgb(209, 228, 236);
+  margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*these next 4 paragraphs you can delete*/
+#colorbox {
+  /*background-color: #747DE8;*/
+  margin-top: -10px;
+
+}
+
+#colorbox:before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-color: #747DE8;
+}
+
+.correct-colour-box{
+  color: rgb(209, 228, 236); /*this is for the font of the text when the patient hasnt said that word */
+  /*background-color: #f06292;*/
+  margin-top: -10px;
+} 
+
+.correct-colour-box:before {
+  content: "";
+  display: block;
+  height: 10px;
+  background-color: #f06292;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#socratestitle{
+  position: absolute;
+  top: 250px;
+  font-size: 25px;
+}
+
+#icetitle{
+  position: absolute;
+  top: 1000px;
+  font-size: 25px;
+}
+
+#socialtitle{
+  position: absolute;
+  top: 1530px;
+  font-size: 25px;
+}
+
+#generalhistorygrade{
+  margin-left: 10px;
+  /*margin-top: 100px;*/
+
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  position: absolute;
+  bottom: 10px;
+  
+}
+
+
+
+
+
+#review-section p {
+  margin-left: 0px;
+}
+
+
+
+
+
+
+.forgottoaskaboutlinespacingforreview {
+  line-height: 1;
+}
+
+#whatQuyoumissed-btn{
+  background-color: rgb(249, 191, 191);
+  color:black;
+  border: solid black 1px;
+  height: 5%;
+  padding: 5px;
+  font-size: 100%;
+}
+
+
+
+#numberedlist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  counter-reset: apples;
+}
+
+#titleforquestions{
+  content: "Q"counter(apples)":";
+  counter-increment: apples;
+  font-family: sans-serif;
+  color: rgb(25, 3, 134);
+  font-weight: bold;
+  font-size: 38px;
+  margin-right: 10px;
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+#summarymodel, #differentialsmodel, #examinationsmodel, #bloodtestsmodel, #otherinvestigationsmodel, #riskfactorsmodel, #treatmentsmodel {
+  color: #109D59;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+  .WWWEBItitles {
+    font-size: 30px;
+    width: 140px;   
+  }
+  #socratestitle, #icetitle, #socialtitle, #generalhistorygrade {  
+    padding-right: 15px;
+    font-size: 22.5px;
+  }
+  .titlesformatting {
+    padding-left: 10px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .WWWEBItitles {
+    font-size: 25px;
+    width: 115px;   
+  }
+  #socratestitle, #icetitle, #socialtitle, #generalhistorygrade {  
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .titlesformatting {
+    padding-left: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+.evenbetterifgeneral, .whatwentwellgeneral {width: 37%;}
+}
+
+@media screen and (max-width: 1000px) {
+.evenbetterifgeneral, .whatwentwellgeneral {width: 370px;}
+}
+
+@media screen and (max-width: 965px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 345px;}
+  }
+
+@media screen and (max-width: 910px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 320px;}
+}
+
+@media screen and (max-width: 875px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 300px;}
+  }
+
+@media screen and (max-width: 825px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 280px;}
+}
+
+@media screen and (max-width: 790px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 260px;}
+  }
+
+@media screen and (max-width: 765px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 240px;}
+  }
+
+@media screen and (max-width: 740px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 225px;}
+  }
+
+@media screen and (max-width: 720px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 215px;}
+  }
+
+@media screen and (max-width: 700px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 205px;}
+}
+
+@media screen and (max-width: 675px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 195px;}
+  }  
+  
+@media screen and (max-width: 650px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 190px;}
+  }  
+
+@media screen and (max-width: 600px) {
+.evenbetterifgeneral, .whatwentwellgeneral {width: 185px;}
+}
+
+@media screen and (max-width: 550px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 165px;}
+  }  
+
+@media screen and (max-width: 525px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 155px;}
+  }
+
+
+@media screen and (max-width: 500px) {
+  .evenbetterifgeneral, .whatwentwellgeneral {width: 140px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+	font-size: 15.5px;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 12.5px;   
+  }}
+
+
+.nav-area {
+	background: #262626;
+  
+}
+.nav-area:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.nav-area ul {
+	list-style: none;
+	margin: 0;
+  text-align: center;
+}
+.nav-area>ul>li {
+	
+	position:relative;
+  display: inline-block;
+  
+}
+.nav-area ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+	display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav-area ul li a {
+    padding: 15px 10px;
+  }}
+
+  @media screen and (max-width: 600px) {
+    .nav-area ul li a {
+      padding: 15px 0px;
+    }}
+
+.nav-area ul li:hover a {
+	background: #34495e;
+}
+.nav-area ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 160px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+.nav-area ul li:hover>ul {
+	display: block;
+}
+.nav-area ul ul li:hover a {
+	background: #262626;
+}
+.nav-area ul ul li {
+	position: relative;
+}
+.nav-area ul ul ul {
+	top: 0;
+	left: 100%;
+}
+.nav-area ul ul ul li:hover a {
+	background: #34495e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+  font-family: sans-serif;
+}
+
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  background: cyan;
+  border: 5px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background: blue;
+  color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+*/
+
+
+
+
+.wrapper {
+  width: 1000px;
+  /*margin: 0 auto;*/
+  height: 100%;
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    width: 750px;
+  }}
+
+@media screen and (max-width: 900px) {
+  .wrapper {
+    width: 500px;
+  }}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 450px;
+  }}
+
+
+
+#quiz {
+  background-color: #3a4f64;
+  padding-bottom: 60px;
+  width: 100%;
+  border-radius: 2%;
+  color: #fff;
+  /*text-align: center;*/
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+#quiz > h1 {
+/*  text-align: center;*/
+  padding-top: 25px;
+  font-size: 20px;
+  
+}
+
+.headerformultiplechoice{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.questions {
+  font-size: 28px;
+  font-weight: 700;
+  /*font-style: italic;*/
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 20px;
+}
+
+.answers div {
+  padding: 10px 0 0 0;
+  font-size: 16px;
+}
+
+.answers div:hover {
+  cursor: pointer;
+  color: #FBCB43;
+}
+
+.answers {
+  padding: 0px 0 10px 0px;
+}
+
+.answers div {
+  width: 50%;
+ /* margin: 0 auto;*/
+ padding-left: 20px;
+  padding-bottom: 15px;
+  border-top: 1px solid grey;
+}
+
+.answers div:first-child {
+  border: none;
+}
+
+.checker {
+ /* display: inline-block;*/
+  width: 200px;
+  margin: 0 auto;
+}
+
+.correct, .false {
+  background-color: #109D59;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 4px;
+  float: left;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.false {
+  background-color: #DC4437;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.columnhomepage {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  text-align: center;
+
+}
+
+.homeimages {
+  float: right; 
+  margin-left: 10px; 
+  margin-bottom: 5px; 
+  border: solid black 1px; 
+  padding: 1px; 
+  width:100%; 
+  border-radius: 15px; 
+  height: 300px; 
+  cursor: pointer;
+  
+}
+
+.homeimages:hover {
+  height: 290px;
+  width: 97%;
+
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.rowhomepage {margin: 0 -5px;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+/* Clear floats after the columns */
+.rowhomepage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+/*
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 175px;
+  text-align: center;
+  background-color: #f1f1f1;
+  
+}
+*/
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .columnhomepage {
+    width: 50%;
+    height: 230px;
+    display: block;
+    margin-bottom: 20px;
+  }}
+
+  @media screen and (max-width: 600px) {
+  .homeimages{
+    height: 200px;
+  }
+  .homeimages:hover{
+    height: 190px;
+  }}
+
+  @media screen and (max-width: 1000px) {
+    .homeimages{
+      height: 200px;
+    }
+    .homeimages:hover{
+      height: 190px;
+    }}
+
+
+
+
+
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px
+    }
+
+
+
+
+  body {
+    /*background-color: lightblue;*/
+    background-color: rgb(233, 246, 253);
+
+  }/*MAKE SURE TO ALSO CHANGE THE COLOUR IN SCRIPT.JS NEAR THE START*/
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  
+  #bodybox {
+    margin: auto;
+    max-width: 550px;
+    
+    font: 15px arial, sans-serif;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 15px;
+  }
+  
+  #chatborder {
+    border-style: solid;
+    background-color: #f6f9f6;
+    border-width: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-radius: 15px;
+  }
+
+    
+  
+  
+  .chatlog {
+     font: 15px arial, sans-serif;
+  }
+  
+  #chatbox {
+    font: 17px arial, sans-serif;
+    height: 22px;
+    width: 100%;
+  }
+  
+  h1 {
+    margin: auto;
+  }
+  
+  pre {
+    background-color: #f0f0f0;
+    margin-left: 20px;
+  }
+
+  */
